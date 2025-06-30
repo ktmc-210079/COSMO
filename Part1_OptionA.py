@@ -11,7 +11,7 @@ for i in gen.gen(T):
         #for each payment
         balance += balance * R
         #interest
-        balance -= (int(i[-T + j]) + 1) * 5
+        balance -= (int(i[-T + j]) + 1) * 5 + C
         #payment
     avg += balance
 
