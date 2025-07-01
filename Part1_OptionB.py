@@ -27,3 +27,4 @@ for i in gen.gen(T):
 avg = avg / 2 ** T
 
 print(avg)
+input()
